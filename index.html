@@ -1,0 +1,233 @@
+<!--
+    root
+    └─index.html 
+
+    Personal HTML5 Website, 
+    Designed by Alex Williams,
+    Last Edited: 22/11/2021
+-->
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is the personal website of Alex Williams">
+        <meta name="author" content="Alex Williams">
+        <meta name="keywords" content="Alex Williams, Software Development, Games Programming, Filmmaker, Creator, Portfolio, Personal, HTML, CSS, Python, C++, C#">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Alex Williams</title>
+    </head>
+    <body>
+        <header class="h-container">
+            <!-- Set-up copyright/QR-Code imgs header embed... -->
+            <div class="title">
+                <a class="title" href="index.html"> 
+                    <img src="img/header-copy.png" width="50" height="100"> <img src="img/header-qr.png" width="100" height="100">
+                </a>
+            </div> 
+            <!-- Sitemap root navigation (fallback, incase imgs break/server is on fire)... -->
+            <nav class="header">
+                    <li class="nav">
+                        <a class="nav" href="https://www.linkedin.com/in/ascw/">
+                            LinkedIn
+                        </a>
+                    </li>
+                    <li class="nav">
+                        <a class="nav" href="https://github.com/ascwnyc">
+                            GitHub
+                        </a>
+                    </li>
+            </nav>
+            <!-- Hire Me! Button set-up... -->
+            <div class="hire-me">
+                <a class="flex-button" href="mailto:ascwnyc@gmail.com">Hire Me</a>
+            </div>
+            
+        </header>   
+        <main>
+            <!-- Core Flexbox container setup... -->
+            <div class="flex-container">
+                <div>
+                    <!-- Flexbox Element, Contact Information Section... -->
+                    <div class="flex-contact">
+                        <h1 class="flex">Contact Info</h1>
+                            <h2 class="flex">Email</h2>
+                                <p>
+                                    ascwnyc@gmail.com
+                                </p>
+                            <h2 class="flex">Phone</h2>
+                                <p>
+                                    01707243657
+                                </p>
+                            <h2 class="flex">Location</h2>
+                                <p>
+                                    Hertfordshire, England<br>
+                                    U.K.
+                                </p>                    
+                    </div>
+                    <!-- Flexbox Element, Employment Section... -->
+                    <div class="flex-employment">
+                        <h1 class="flex">Experience</h1>
+                            <h2 class="flex">General Labourer</h2>
+                                <h3 class="flex">Alpine Building Solutions</h3>
+                                    <p class="date">
+                                        Jun 2019 - Sep 2020
+                                    </p>
+                                    <p>
+                                        Temporary Job as a Laborer, assisting with heavy lifting, landscaping, and general handiwork.
+                                    </p>
+                            <h2 class="flex">Team Leader</h2>
+                                <h3 class="flex">The Cooperative</h3>  
+                                    <p class="date">
+                                        Aug 2015 - Mar 2019
+                                    </p>
+                                    <p>
+                                        Responsible for serving customers, stocking shelves, and taking deliveries. Progressed to a Team Leader position for the final year of employment.
+                                    </p>
+                            <h2 class="flex">Crew Member</h2>
+                                <h3 class="flex">McDonald's Restaurants</h3>
+                                    <p class="date">
+                                        Apr 2014 - Jul 2015
+                                    </p>
+                                    <p>
+                                        General Restaurant Staff, ensuring the face of the business was presentable, orders were prepared on time and customers' needs were met with courtesy.
+                                    </p>
+                    </div>
+                    <!-- Flexbox Element, Projects Section... -->
+                    <div class="flex-projects">
+                        <h1 class="flex">Projects</h1>
+                            <h2 class="flex">Pathfinder</h2>
+                                <p class="date">
+                                    Jan 2022
+                                </p>
+                                <p>
+                                    <b>Languages Used:</b> JavaScript, React
+                                </p>
+                                <p>
+                                    In an ongoing effort to study how algorithms behave, I created a rudimentary program to visualise how algorithms find the shortest path to a given destination. The current program features support for Dijkstra's algorithm, and allows the user to input 'walls' to act as obstacles between the start node and finish node.
+                                </p>
+                                <p>
+                                    <a class="button" href="https://ascwnyc.github.io/pathfinder/">View On Pages</a> <a class="button" href="https://github.com/ascwnyc/pathfinder">View On GitHub</a>
+                                </p>
+                            <h2 class="flex">Newt</h2>
+                                <p class="date">
+                                    Oct 2021 - Present
+                                </p>
+                                <p>
+                                    <b>Languages Used:</b> Python
+                                </p>
+                                <p>
+                                    Newt is a multi-purpose program written in Python and designed for use with the Discord API to automate features through the use of slash commands.                                </p>
+                                <p>
+                                    <a class="button" href="https://github.com/ascwnyc/Newt">View On GitHub</a>
+                                </p>
+                    </div>
+                </div>
+                <div>
+                    <!-- Flexbox Element, Name Logos, Sublogos... -->
+                    <div class="flex-logo">
+                        <h1 class="logo">ALEX WILLIAMS</h1>
+                        <h2 class="sublogo">アレックスウィリアムズ</h2>
+                        <h3 class="subtitle">Software Developer</h3>
+                    </div>
+                    <div class="flex-profile">
+                        <p>
+                            I'm Alex. 
+                        </p>
+                        <p>
+                            I'm primarily a software developer, a student, and <i>sometimes</i> developer of video games.
+                        </p>
+                        <p>
+                            I've been designing this website for a while as a way to display my own body of work without the constraints external websites often add. Beyond that, it acts as my own space to change, prototype, and challenge myself on what I can do with a web page.   
+                        </p>
+                        <p>
+                            This homepage is currently a display of notable work, experience, education, and skills. External links to relevant profiles (LinkedIn, GitHub etc.) are also included.
+                        </p>
+                        
+                    </div>
+                    <!-- Flexbox Element, Education Section... -->
+                    <div class="flex-education">
+                        <h1 class="flex">Education</h1>
+                            <h2 class="flex">University of Hertfordshire</h2>
+                                <p>
+                                    <b>BsC(Hons) Computer Science:</b> <i>2:1 (Expected) // 3.50 GPA</i>
+                                </p>
+                                <p>
+                                    Currently studying the properties of algorithms and their use in data structures, the importance of time complexity in developing programs, and writing programs in <b>Python</b>, as well as working towards coding programs in <b>C</b> and <b>PHP</b>.
+                                </p>
+                            <h2 class="flex">Oaklands College</h2>
+                                <p>
+                                    <b>Pearson Level 3 Information Technology BTEC:</b> <i>Grade DDD</i>
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elit est, rutrum at viverra placerat, elementum non orci. Quisque condimentum sem dui. Nulla dignissim viverra volutpat.
+                                </p>
+                                <p>
+                                    <b>Pearson Level 3 90-Credit Information Technology BTEC:</b> <i>Grade D*D*</i>
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elit est, rutrum at viverra placerat, elementum non orci. Quisque condimentum sem dui. Nulla dignissim viverra volutpat.
+                                </p>
+                    </div>
+                    <!-- Flexbox Element, Skills Section... -->
+                    <div class="flex-skills">            
+                        <h1 class="flex">Skills</h1>
+                            <!-- List #1 -->
+                            <h2 class="flex">Programming</h2>
+                                    <div class="flex-list">
+                                        <li class="flex">
+                                            Python
+                                        </li>
+                                        <li class="flex">
+                                            HTML
+                                        </li>
+                                        <li class="flex">
+                                            CSS
+                                        </li>
+                                        <li class="flex">
+                                            C
+                                        </li>
+                                        <li class="flex">
+                                            JavaScript
+                                        </li>
+                                        <li class="flex">
+                                            React
+                                        </li>
+                                        <li class="flex">
+                                            MySQL
+                                        </li>
+                                    </div>
+                                <br>
+                            <!-- List #2 -->
+                            <h2 class="flex">General</h2>
+                                <div class="flex-list">
+                                    <li class="flex">
+                                        Leadership
+                                    </li>
+                                    <li class="flex">
+                                        Teamwork
+                                    </li>
+                                    <li class="flex">
+                                        Organisation
+                                    </li>
+                                    <li class="flex">
+                                        Prioritisation
+                                    </li>
+                                    <li class="flex">
+                                        Time Management
+                                    </li>
+                                    <li class="flex">
+                                        Communication
+                                    </li>
+                                </div>
+                    </div>           
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            Website designed by Alex Williams. &copy; 2022.
+        </footer>
+    </body>
+</html>

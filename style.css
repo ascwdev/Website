@@ -1,0 +1,301 @@
+/* fade in... */
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+body {
+    background-color: #ede6de;
+    animation-name: fadein;
+    animation-duration: 1s;
+    color:rgb(27, 26, 26)
+}
+
+/* Header classes */
+header.h-container {
+    display: flex;
+    flex-direction: row;
+}
+
+div.title {
+    margin: 10px;
+    font-family: helvetica;
+    color:rgb(27, 26, 26);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Navigante ("How are you today, Jorge Salcedo?") classes...  */
+nav.header {  
+    width: fit-content;
+    height: fit-content;
+    margin-top: 10px;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+div.hire-me {
+    align-items: center;
+    margin-left: auto;
+    padding: 24px;
+}
+
+main {
+    font-family: Helvetica;
+    font-size: 16px;
+}
+
+/* List classes */
+li.nav a:hover:not(.header) {
+    background-color: rgb(197, 154, 118);
+}
+
+li.nav {
+    list-style-type: none;
+}
+
+div.flex-list {
+    column-count: 3;
+    width: 500px;
+}
+
+li.flex {
+    margin-bottom: 5px;
+}
+
+/* Header1 class for 'ALEX WILLIAMS' logo */
+h1.logo {
+    font-family: Helvetica;
+    font-size: 124px;
+    line-height: .9;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1.flex {
+    font-family: Helvetica;
+    font-size: 36px;
+    line-height: .9;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+/* Header2 class for 'アレックスウィリアムズ' sublogo */
+h2.sublogo {
+    font-family: Helvetica;
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2.flex {
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: .9;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Header3 class for 'Software Developer' subtitle */
+h3.subtitle {
+    font-family: Helvetica;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color:rgb(199 161 168);
+}
+
+h3.flex {
+    font-family: Helvetica;
+    font-size: 18px;
+    margin-top: -3px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph class */
+p {
+    margin-top: 0;
+}
+
+p.date {
+    margin-top: 0;
+    color:rgb(143 132 120);
+}
+
+
+/* Core flexbox container class */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 100px;
+}
+
+/* Flex element, Contact Info (LEFT SIDE)*/
+.flex-contact {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    flex-wrap: wrap;
+    text-align: right;
+    padding: 5px;
+    margin-right: 20px;
+    justify-content: flex-end;
+}
+
+/* Flex element, Work Info (LEFT SIDE)*/
+.flex-employment {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    flex-wrap: wrap;
+    text-align: right;
+    padding: 5px;
+    margin-right: 20px;
+    justify-content: flex-end;
+}
+
+
+/* Flex element, Logo Area (RIGHT SIDE) */
+.flex-logo {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-left: 20px;
+    justify-content: flex-start;
+}
+
+/* Flex element, About Me (RIGHT SIDE) */
+.flex-profile {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-left: 20px;
+    justify-content: flex-start;
+}
+
+/* Flex element, Education (RIGHT SIDE) */
+.flex-education {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-left: 20px;
+    justify-content: flex-start;
+}
+
+/* Flex element, Skills Info (RIGHT SIDE)*/
+.flex-skills {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-left: 20px;
+    justify-content: flex-start;
+}
+
+/* Flex element, Project Info (RIGHT SIDE)*/
+.flex-projects {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-right: 20px;
+    justify-content: flex-end;    
+    text-align: right;
+}
+
+/* Link classes a.______ */
+a {
+    color: rgb(139, 117, 92);
+    text-decoration: none;
+    margin: 12px;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(27, 26, 26);
+}
+
+/* Header-left link class */
+a.title {
+    text-decoration: none;
+}
+
+a.title:visited {
+    color: rgb(27, 26, 26);
+    text-decoration: none;
+}
+
+/* Header-right link class */
+a.nav {
+    color: rgb(139, 117, 92);
+    text-decoration: none;
+    margin: 12px;
+    transition-duration: 0.2s;
+}
+
+a.nav:visited {
+    text-decoration: none;
+}
+
+/* Button-styled link class */
+a.button {
+    border: none;
+    font-family: helvetica;
+    background-color: #fff7ef;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 0;
+    transition-duration: 0.2s;
+}
+
+a.button:hover {
+    background-color: rgb(197, 154, 118); /* Green */
+    color: rgb(27, 26, 26);
+}
+
+/* Button-styled link class (far-right corner HIRE ME BUTTON) */
+a.flex-button {
+    border: none;
+    font-family: helvetica;
+    border: solid 2px;
+
+    padding: 10px;
+    margin: 0;
+    border-bottom-width: thick;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+    align-self: center;
+}
+
+a.flex-button:hover {
+    color: rgb(197, 154, 118);;
+}
+
+
+footer {
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: Helvetica;
+    font-size: 12px;
+    font-style: italic;
+    color: rgb(27, 26, 26);
+}
+
