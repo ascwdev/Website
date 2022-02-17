@@ -140,16 +140,17 @@ table {
   margin-bottom: var(--block-bottom);
 }
 
-a {
+.project__link {
     text-decoration: none;
     color: var(--font-link-color);
 }
 
-a:visited {
+.project__link:visited {
+    text-decoration: none;
     color: var(--font-link-color);
 }
 
-a:hover {
+.project__link:hover {
     background-color: rgb(0, 0, 0, 0.1);      
 }
 
@@ -163,6 +164,11 @@ p:first-of-type {
 }
 
 .link {
+    text-decoration: none;
+    color: var(--font-link-color);
+}
+
+.link:visited {
     text-decoration: none;
     color: var(--font-link-color);
 }
