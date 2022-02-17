@@ -142,6 +142,7 @@ table {
 
 a {
     text-decoration: none;
+    color: var(--font-link-color);
 }
 
 a:visited {
