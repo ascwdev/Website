@@ -5,6 +5,7 @@
     --font-p: 'Roboto Mono', sans-serif;
 
     --font-nav-color: rgb(0, 0, 0, 0.5);
+    --font-link-color: rgb(103, 9, 255);
 
     --weight-bold: 700;
 
@@ -143,6 +144,10 @@ a {
     text-decoration: none;
 }
 
+a:visited {
+    color: var(--font-link-color);
+}
+
 p {
     font-family: var(--font-p);
     font-size: 14px;
@@ -154,6 +159,7 @@ p:first-of-type {
 
 .link {
     text-decoration: none;
+    color: var(--font-link-color);
 }
 
 .link:hover {
