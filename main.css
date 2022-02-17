@@ -189,7 +189,7 @@ p:last-of-type {
     margin-left: 0;
     margin-bottom: 0.6em;
     padding-bottom: 0.6rem;
-    border-bottom: 1px solid var(--border-color-light);
+    border-bottom: 1px dashed var(--border-color-light);
 }
 
 .project__item {
