@@ -8,7 +8,7 @@ body {
     background-color: #ede6de;
     animation-name: fadein;
     animation-duration: 1s;
-    color:rgb(27, 26, 26)
+    color:rgb(27, 26, 26);
 }
 
 /* Header classes */
