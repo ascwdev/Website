@@ -172,6 +172,7 @@ body {
     position: relative;
     z-index: 1;
     justify-content: center;
+    border-left: 1px dashed grey;
 }
 
 .section__layout-container {
