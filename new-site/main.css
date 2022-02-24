@@ -8,7 +8,7 @@
     --font-hire: 'Open Sans SemiBold';
 
     /* Colors */
-    --font-nav: rgb(31, 31, 31);
+    --font-nav: rgb(255, 255, 255);
     --font-nav--highlighted: rgb(255,255,255,0.5);
 
     /* Widths__<site> */
@@ -42,9 +42,17 @@
     /* Padding__<footers> */
     --footer-padding-right: 16px;
     --footer-padding-left: 16px;
+
+    --gutter:
 }
 
 body {
+    background: white;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.1) 1px, transparent 0);
+    background-size: 40px 40px;
+    background-position: -19px -19px;
     font-family: var(--font-default);
     background-color: white;
     margin: 0;
@@ -185,6 +193,17 @@ body {
     padding: var(--section-padding-top) 0 var(--section-padding-bottom);
 }
 
+.section__title {
+    font-family: 'Open Sans SemiBold';
+    font-size: 1.2em;
+    color:rgb(255, 255, 255);
+    padding: 10px;
+    letter-spacing: 10px;
+    text-align: center;
+    background:rgba(0, 0, 0, 0.25);
+    border-bottom: 4px solid rgba(252, 252, 252, 0.63);
+}
+
 .column__layout {
     --column-row-gap: var(--row-gap-big);
     display: grid;
@@ -221,7 +240,7 @@ body {
 
 .hero__title {
     font-family: 'Open Sans SemiBold';
-    font-size: 72px;
+    font-size: 4em;
     width: 100%;
     margin: 0;
     line-height: 100%;
@@ -236,17 +255,19 @@ body {
 .hero__stripes {
     display: grid;
     z-index: -1;
-    margin-top: -100px;
+    
     grid: repeat(5, 120px) / repeat(10, 1fr);
-    background: linear-gradient(#5a5a5a, #ececec);
+    background: linear-gradient(rgb(151, 151, 151), rgb(247, 210, 155));
+    width: 100%;
+    position: absolute;
     transform: skewY(-12deg);
     transform-origin: 0;
 
 }
 
+
 .hero__stripes :nth-child(1) {
-    
-    grid-column: span 4;
+    grid-column: span 5;
     grid-row: 2;
 }
 
@@ -259,9 +280,10 @@ body {
 .hero__stripes :nth-child(3) {
     
     grid-row: 4;
-    grid-column: span 5;
+    grid-column: 10 span;
 }
 .hero__body {
+    
     font-size: 24px;
     padding: 0 var(--body-padding-right) 0 var(--body-padding-left);
     margin: 0
@@ -358,7 +380,19 @@ body {
     }
 }
 
+
+.grid-item {
+    display: grid;
+
+    transform: rotate(-45deg);
+
+    text-align: center;
+}
+
+
+
 .site-footer {
     text-align: center;
-    color: rgba(119, 119, 119, 0.7);
+    z-index: 2;
+    color: rgba(20, 20, 20, 0.7);
 }
