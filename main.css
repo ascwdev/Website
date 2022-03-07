@@ -1,7 +1,7 @@
 :root {
     --font-default: 'Courier';
     --font-nav: 'Open Sans SemiBold', sans-serif;
-    --font-h1: 'Inter';
+    --font-h1: 'Test Söhne', sans-serif;
     --font-p: 'Roboto Mono', sans-serif;
 
     --font-nav-color: rgb(0, 0, 0, 0.7);
@@ -118,9 +118,10 @@ body, input, button, select, textarea {
 }
 
 .page__title {
-    font-size: 1.5rem;
+    font-size: 3em;
     line-height: 1em;
-    font-family: var(--font-h1);    
+    font-family: var(--font-h1);
+    font-weight: 500;    
 }
 
 p,
@@ -137,6 +138,12 @@ hr,
 table {
   margin-top: 0;
   margin-bottom: var(--block-bottom);
+}
+
+img {
+    opacity: 5%;
+    position: absolute;
+    z-index: -1;
 }
 
 .project__link {
