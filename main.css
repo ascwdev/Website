@@ -1,7 +1,7 @@
 :root {
     --font-default: 'Courier';
     --font-nav: 'Open Sans SemiBold', sans-serif;
-    --font-h1: 'Test Söhne', sans-serif;
+    --font-h1: 'Test Söhne', 'Open Sans', sans-serif;
     --font-p: 'Roboto Mono', sans-serif;
 
     --font-nav-color: rgb(0, 0, 0, 0.7);
