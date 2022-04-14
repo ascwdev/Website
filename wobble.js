@@ -11,7 +11,7 @@ class Blob {
   constructor() {
     this.wobbleIncrement = 0;
     // use this to change the size of the blob
-    this.radius = 2000;
+    this.radius = 500;
     // think of this as detail level
     // number of conections in the `bezierSkin`
     this.segments = 12;
@@ -20,7 +20,7 @@ class Blob {
     this.radii = [];
     this.thetaOff = [];
 
-    const bumpRadius = 100;
+    const bumpRadius = 50;
     const halfBumpRadius = bumpRadius / 2;
 
     for (let i = 0; i < this.segments + 2; i++) {
@@ -46,11 +46,11 @@ class Blob {
       const y = rad * Math.cos(this.step * i);
       this.anchors.push(x, y);
     }
-
+    
     c.save();
     c.translate(-10, -10);
-    c.scale(0.5, 0.5);
-    c.fillStyle = "blue";
+    c.scale(1, 1);
+    c.fillStyle = "#b4a5cb";
     c.beginPath();
     c.moveTo(0, 0);
     bezierSkin(this.anchors, false);
@@ -107,5 +107,3 @@ function calcAvgs(p) {
   avg.push((p[0] + p[leng - 2]) / 2, (p[1] + p[leng - 1]) / 2);
   return avg;
 }
-
-ctx.globalCompositeOperation='destination-over';
