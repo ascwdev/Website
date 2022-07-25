@@ -29,9 +29,14 @@
 
 canvas {
     position: absolute;
+    z-index: -1;
 }
 
 body {
+    background: white;
+    background-image: radial-gradient(hsla(0, 0%, 0%, 0.301) 1px, transparent 0);
+    background-size: 20px 20px;
+    background-position: -19px -19px;
     font-family: var(--font-default);
     font-size: 18px;
     background-color: var(--background-color);
@@ -48,6 +53,7 @@ body, input, button, select, textarea {
 }
 
 .nav {
+    background-color: white;
     display: flex;
     overflow-x: auto;
     margin: var(--gutter) 0 calc(var(--gutter) * 4) 0;
@@ -107,6 +113,7 @@ body, input, button, select, textarea {
 }
 
 .page {
+    background-color:white;
     position: relative;
     max-width: var(--page-max-width);
     margin-top: 64px;
