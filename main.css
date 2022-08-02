@@ -4,8 +4,11 @@
     --font-h1: 'Test Söhne', 'Open Sans', sans-serif;
     --font-p: 'Roboto Mono', sans-serif;
 
+    --font-size: 14px;
+
     --font-nav-color: rgb(0, 0, 0, 0.7);
     --font-link-color: rgb(103, 9, 255);
+    --font-button-text-color: white;
 
     --weight-bold: 700;
 
@@ -52,10 +55,6 @@ body, input, button, select, textarea {
     -webkit-font-smoothing: antialiased;
 }
 
-a {
-    text-decoration: none;
-}
-
 .nav {
     background-color: white;
     display: flex;
@@ -91,15 +90,14 @@ a {
 }
 
 .nav__item {
+    font-family: var(--font-nav);
+    font-size: var(--font-size);
+    font-weight: var(--weight-bold);
+    color: var(--font-nav-color);
+    
     display: inline-block;
     padding: 0.65em 0.35em;
     margin-right: 0.5em;
-    color: var(--font-nav-color);
-    font-family: var(--font-nav);
-    font-size: 14px;
-    font-weight: var(--weight-bold);
-    text-decoration: none;
-    background-color: transparent;
 }
 
 @media (min-width: 800px) {
@@ -161,23 +159,9 @@ img {
     box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
 }
 
-.project__link {
-    text-decoration: none;
-    color: var(--font-link-color);
-}
-
-.project__link:visited {
-    text-decoration: none;
-    color: var(--font-link-color);
-}
-
-.project__link:hover {
-    background-color: rgb(0, 0, 0, 0.1);      
-}
-
 p {
     font-family: var(--font-p);
-    font-size: 14px;
+    font-size: var(--font-size);
 }
 
 p:first-of-type {
@@ -188,8 +172,11 @@ p:last-of-type {
     margin-bottom: 0;
 }
 
-.link {
+a {
     text-decoration: none;
+}
+
+.link {
     color: var(--font-link-color);
 }
 
@@ -202,21 +189,27 @@ p:last-of-type {
     background-color: rgb(0, 0, 0, 0.1);
 }
 
-.block__link {
-    box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+.button {
+    display: inline;
+    font-family: var(--font-nav);
+    font-size: var(--font-size);
     background-color: rgb(103, 9, 255);
     color: white;
-    padding: 3px 8px 3px 8px;
+
+    border: 0;
     border-radius: 5px;
-    font-family: var(--font-nav);
+    padding: 3px 8px 3px 8px;
+    box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2); 
+
+    cursor: pointer;
 }
 
-.block__link:visited {
+.button:visited {
     text-decoration: none;
-    color: var(--font-link-color);
+    color: white;
 }
 
-.block__link:hover {
+.button:hover {
     background-color: rgb(0, 0, 0);     
 }
 
@@ -234,7 +227,7 @@ p:last-of-type {
 
 .project__item {
     font-family: var(--font-p);
-    font-size: 14px;
+    font-size: var(--font-size);
 }
 
 .project__title {
