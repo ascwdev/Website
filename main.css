@@ -212,12 +212,17 @@ a {
     background-color: rgb(0, 0, 0, 0.1);
 }
 
+.link:active {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
 .button {
     display: inline;
     font-family: var(--font-nav);
     font-size: var(--font-size);
     background-color: rgb(103, 9, 255);
-    color: white;
+    color: rgb(255, 255, 255);
 
     border: 0;
     border-radius: 5px;
