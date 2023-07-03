@@ -39,7 +39,7 @@ canvas {
 body {
     background: white;
     font-family: var(--font-default);
-    font-size: 18px;
+    font-size: var(--font-size);
     background-color: var(--background-color);
     margin: 0;
     padding: 0;
