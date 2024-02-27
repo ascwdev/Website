@@ -63,7 +63,7 @@ body, input, button, select, textarea {
 
 @media (min-width: 800px) {
     .nav {
-        display: block;
+        display: inline;
         position: fixed;
         left: 0;
         padding: 0;
@@ -400,7 +400,6 @@ a {
 .resume__subsection {
     display: grid;
     gap: .5rem;
-    margin-left: 1rem;
     padding-bottom: 1rem;
 
     border-bottom: 1px dashed var(--border-color-light);
@@ -430,4 +429,14 @@ a {
     transition: 5s; 
     margin-bottom: 0px; 
     padding-bottom: 0px; 
+}
+
+.resume__section__text {
+    display: flex;
+    width: max-content;
+    gap: var(--gutter);
+}
+
+.small {
+    font-size: .75rem;
 }
