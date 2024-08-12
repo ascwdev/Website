@@ -1,0 +1,81 @@
+<!--
+    root
+    └─index.html
+      └─projects.html
+
+    Personal HTML5 Website,
+    Designed by Alex Williams,
+    Last Edited: 04/05/2024
+-->
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is the personal website of Alex Williams">
+    <meta name="author" content="Alex Williams">
+    <meta name="keywords" content="Alex Williams, Software Development, Games Programming, Filmmaker, Creator, Portfolio, Personal, HTML, CSS, Python, C++, C#">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/main.css">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico"/>
+    <title>Alex Williams</title>
+</head>
+<body>
+<nav class="nav">
+    <div class="nav__list">
+        <span class="text"><a href="/index.html" class="nav__item">Home</a></span>
+        <span class="icon"><a href="/index.html" class="nav__item"><img src="/img/home.svg"></a></span>
+
+        <span class="text"><a href="/projects.html" class="nav__item">Projects</a></span>
+        <span class="icon"><a href="/projects.html" class="nav__item"><img src="/img/code.svg"></a></span>
+    </div>
+    <div class="nav__list">
+        <span class="text"><a href="https://github.com/ascwnyc" class="nav__item">GitHub</a></span>
+        <span class="icon"><a href="https://github.com/ascwnyc" class="nav__item"><img src="/img/github.svg"></a></span>
+
+        <span class="text"><a href="https://www.linkedin.com/in/ascw" class="nav__item">LinkedIn</a></span>
+        <span class="icon"><a href="https://www.linkedin.com/in/ascw" class="nav__item"><img src="/img/linkedin.svg"></a></span>
+
+        <span class="text"><a href="mailto:alex@ascw.dev" class="nav__item">Email</a></span>
+        <span class="icon"><a href="mailto:alex@ascw.dev" class="nav__item"><img src="/img/email.svg"></a></span>
+    </div>
+</nav>
+<div class="page">
+    <h1 class="page__title">Polaris</h1>
+    <p>
+        <b>Date:</b> September 2022 - May 2023<br>
+        <b>Languages/Tools:</b> C#, Unity
+    </p>
+    <p>
+        <a href="https://github.com/ascwnyc/Polaris" class="button">View Project</a>
+    </p>
+    <figure>
+        <video oncontextmenu="return false;"  class="project__img" width="100%" autoplay muted loop>
+            <source src="/vid/polaris_media_loop.mp4" type="video/mp4" />
+        </video>
+    </figure>
+    <p>
+        This project was a part of my final year dissertation. It was used to investigate the suitability of a PC platform for developing games, or specifically a platformer game developed using Unity and C#. The project explored a litany of research through a literature review necessary to support the project’s hypothesis and its success, underpinning the areas of software engineering through game development.
+    </p>
+    <p>
+        Inspiration for this project came initially from previous experience developing video games as a hobby. The subject area of game development is an exciting and rich study area. It felt appropriate to combine experience in developing games with the skills and knowledge amassed throughout studying computer science.     </p>
+    <p>
+        The code for the project was written in C#, taking advantage of Unity's proprietary scripting conventions to control the player's movement etc.
+    </p>
+    <p>
+        The graphics were designed by myself, with visual inspiration from games like Celeste (which was cited significantly in the project report). The sprite and tile graphics conformed to an 8x8 grid for efficiency. A pause menu interface was also designed by myself.
+    </p>
+    <p>
+        Overall, the project was successful, and ensured my final grade would be a First.
+    </p>
+    <form class="project__end" action="/projects.html">
+        <input type="submit" value="Back" class="button"/>
+    </form>
+</div>
+</body>
+</html>
