@@ -309,6 +309,11 @@ a {
     font-weight: var(--weight-bold);
 }
 
+.project__start {
+    padding: 0 0 1rem 0;
+    display: inline-block;
+}
+
 .project__end {
     padding: 1.5rem 0 1rem 0;
     border-bottom: 1px dashed var(--border-color-light);
