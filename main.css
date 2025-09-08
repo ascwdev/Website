@@ -38,7 +38,6 @@ canvas {
 }
 
 body {
-    background: white;
     font-family: var(--font-default);
     font-size: var(--font-size);
     background-color: var(--background-color);
@@ -443,8 +442,8 @@ a {
     font-family: var(--font-h1);
     font-weight: 500;
     transition: 5s;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .resume__section__location {
@@ -460,8 +459,8 @@ a {
     font-family: var(--font-p);
     font-weight: 500;
     transition: 5s;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+    margin-bottom: 0;
+    padding-bottom: 0;
     text-align: right;
 }
 
