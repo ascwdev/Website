@@ -302,6 +302,11 @@ a {
     border-bottom: 1px dashed var(--border-color-light);
 }
 
+li:active {
+    background: #e8e8e8;
+    transition-duration: 0.1s;
+}
+
 .project__item {
     cursor: pointer;
     display: grid;
@@ -312,7 +317,6 @@ a {
     font-family: var(--font-p);
     font-size: var(--font-size);
     transition-duration: 0.1s;
-
 }
 
 .project__item.active {
@@ -351,6 +355,7 @@ a {
 .project__details.active {
     display: block;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .project__start {
