@@ -1,5 +1,5 @@
 :root {
-    --font-default: 'Courier';
+    --font-default: 'Courier', sans-serif;
     --font-nav: 'Open Sans SemiBold', sans-serif;
     --font-h1: 'Test Söhne', 'Open Sans', sans-serif;
     --font-p: 'Roboto Mono', sans-serif;
@@ -23,7 +23,6 @@
     --radius: 3px;
 
     --block-bottom: 1.4rem;
-    --test: 1rem;
     
     --background-color: white;
     --border-color-light: #e8e8e8;
