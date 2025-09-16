@@ -1,7 +1,7 @@
 :root {
     --font-default: 'Courier', sans-serif;
     --font-nav: 'Open Sans SemiBold', sans-serif;
-    --font-h1: 'Test Söhne', 'Open Sans', sans-serif;
+    --font-h1: 'Figtree', sans-serif;
     --font-p: 'Roboto Mono', sans-serif;
 
     --font-size: 14px;
@@ -13,6 +13,7 @@
 
     --weight-regular: 400;
     --weight-bold: 700;
+    --weight-semibold: 600;
 
     --line-height: 1.5em;
 
@@ -38,7 +39,7 @@ canvas {
 }
 
 body {
-    font-family: var(--font-default);
+    font-family: var(--font-default), serif;
     font-size: var(--font-size);
     background-color: var(--background-color);
     margin: 0;
@@ -46,7 +47,7 @@ body {
 }
 
 body, input, button, select, textarea {
-    font-family: var(--font-default);
+    font-family: var(--font-default), serif;
     font-weight: var(--weight-regular);
     font-size: 1rem;
     letter-spacing: -0.025em;
@@ -184,11 +185,12 @@ body, input, button, select, textarea {
 }
 
 .page__title {
-    font-size: 3em;
-    line-height: 1em;
+    font-size: 3rem;
+    line-height: 3rem;
     font-family: var(--font-h1);
-    font-weight: 500; 
-    transition: 5s;   
+    font-weight: var(--weight-semibold);
+    font-optical-sizing: auto;
+    transition: 0.5s;
 }
 
 p,
