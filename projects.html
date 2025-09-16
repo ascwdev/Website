@@ -49,164 +49,97 @@
         </nav>
         <div class="page">
             <h1 class="page__title">Projects</h1>
-            <ul class="project__list">
-                <li>
-                    <div class="project__item">
-                        <figure class="project__thumbnail">
-                            <video oncontextmenu="return false;" class="project__img" width="100%" autoplay muted loop>
-                                <source src="/vid/polaris_media_loop.webm" type="video/webm" />
-                            </video>
-                        </figure>
-                        <div class="project__blurb">
-                            <span class="project__title">
-                                <a href="https://github.com/ascwdev/Polaris" class="link">
-                                    Polaris
-                                </a>
-                            </span>
-                            <span class="project__date">
-                                2023
-                            </span>
-                            <p>
-                                <b>Languages/Tools:</b> C#, Unity
-                            </p>
-                            <p>
-                                2D Platformer Game built in Unity. Part of my final year disseration.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="project__details">
-                        <p>
-                            Used to investigate the suitability of a PC platform for developing games, or specifically a platformer game developed using Unity and C#. The project explored a litany of research through a literature review necessary to support the project’s hypothesis and its success, underpinning the areas of software engineering through game development.
-                        </p>
-                        <p>
-                            Inspiration for this project came initially from previous experience developing video games as a hobby. The subject area of game development is an exciting and rich study area. It felt appropriate to combine experience in developing games with the skills and knowledge amassed throughout studying computer science.     </p>
-                        <p>
-                            The code for the project was written in C#, taking advantage of Unity's proprietary scripting conventions to control the player's movement etc.
-                        </p>
-                        <p>
-                            The graphics were designed by myself, with visual inspiration from games like Celeste (which was cited significantly in the project report). The sprite and tile graphics conformed to an 8x8 grid for efficiency. A pause menu interface was also designed by myself.
-                        </p>
-                        <p>
-                            Overall, the project was successful, and ensured my final grade would be a First.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <div class="project__item" id="myDIV">
-                        <figure class="project__thumbnail">
-                            <video oncontextmenu="return false;" class="project__img" width="100%" autoplay muted loop>
-                                <source src="/vid/flying-bird_media_loop.webm" type="video/webm" />
-                            </video>
-                        </figure>
-                        <div class="project__blurb">
-                            <span class="project__title">
-                                <a href="https://github.com/ascwdev/Flying-Bird" class="link">
-                                    Flying Bird
-                                </a>
-                            </span>
-                            <span class="project__date">
-                                2023
-                            </span>
-                            <p>
-                                <b>Languages/Tools:</b> C#, Unity
-                            </p>
-                            <p>
-                                A simple recreation of Flappy Bird using Unity Engine.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="project__details">
-                        <p>
-                            Despite being one of my first attempts of making games in C# and Unity,
-                            Flying Bird takes into account movement controls, obstacles, a scoring system, and "game over" interface.
-                        </p>
-                        <p>
-                            As referenced on the GitHub repo page, <a class="link" href="https://youtu.be/XtQMytORBmM">this</a> tutorial was followed in completing this project.
-                        </p>
-                        <p>
-                            Overall, I felt it was just as important to follow tutorials to familiarise myself with Unity and C#, as it was to create my own projects from scratch, and this project reflects that.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <div class="project__item">
-                        <figure class="project__thumbnail">
-                            <video oncontextmenu="return false;" class="project__img" width="100%" autoplay muted loop>
-                                <source src="/vid/ping_media_loop.webm" type="video/webm" />
-                            </video>
-                        </figure>
-                        <div class="project__blurb">
+            <div class="project__cards">
+                <div class="project__card">
+                    <figure class="project__thumbnail">
+                        <video oncontextmenu="return false;" class="project__img" width="100%" autoplay="" muted="" loop="">
+                            <source src="/vid/polaris_media_loop.webm" type="video/webm">
+                        </video>
+                    </figure>
+                    <div class="project__blurb">
                         <span class="project__title">
-                            <a href="https://github.com/ascwdev/Ping" class="link">
-                                Ping
+                            <a href="https://github.com/ascwdev/Polaris" class="link">
+                                Polaris
                             </a>
                         </span>
-                            <span class="project__date">
-                            2022
+                        <span class="project__date">
+                            2023
                         </span>
-                            <p>
-                                <b>Languages/Tools:</b> C#, Unity
-                            </p>
-                            <p>
-                                Simple Unity-based recreation of the first commercially successful video-game.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="project__details">
                         <p>
-                            I built this small project as a testament to how deceptively difficult game development can be.
+                            <b>Languages/Tools:</b> C#, Unity
                         </p>
                         <p>
-                            Upon first glance, Pong looks simple. There are two paddles, a ball, two goals, and a scoring system. What you don't see on that first glance is the mechanics under the hood that make it all work.
-                        </p>
-                        <p>
-                            You have to consider how the player(s) will control the paddles, how the ball will travel, and how the scoring system will detect a "goal".
-                        </p>
-                        <p>
-                            Firstly, by adding velocity to the paddles to make them move, and then adding key bindings for those paddles fulfils the consideration for player movement.
-                        </p>
-                        <p>
-                            Beyond that, attaching physics to the ball, and using random integers to give the ball's movement some unpredictability, as well as using variables to store each player's score.
+                            2D Platformer Game built in Unity. Part of my final year disseration.
                         </p>
                     </div>
-                </li>
-                <li>
-                    <div class="project__item">
-                        <figure class="project__thumbnail">
-                            <video oncontextmenu="return false;" class="project__img" width="100%" autoplay muted loop>
-                                <source src="/vid/swift_media_loop.webm" type="video/webm" />
-                            </video>
-                        </figure>
-                        <div class="project__blurb">
+                </div>
+                <div class="project__card">
+                    <figure class="project__thumbnail">
+                        <video oncontextmenu="return false;" class="project__img" width="100%" autoplay muted loop>
+                            <source src="/vid/swift_media_loop.webm" type="video/webm" />
+                        </video>
+                    </figure>
+                    <div class="project__blurb">
                         <span class="project__title">
                             <a href="https://github.com/ascwdev/Swift" class="link">
                                 Swift
                             </a>
                         </span>
-                            <span class="project__date">
+                        <span class="project__date">
                             2022
                         </span>
-                            <p><b>Languages/Tools:</b> Discord.js, Node.js, JavaScript</p>
-                            <p></p>
-                            <p>An ongoing development into designing a Discord Bot through JavaScript.</p>
-                        </div>
-                        <div class="project__details">
-                            <p>
-                                Swift was originally created to help me understand JavaScript.
-                            </p>
-                            <p>
-                                It boasts a robust command handler that makes use of Discord's built in slash command GUI to display commands in an effective and elegant way.
-                            </p>
-                            <p>
-                                The project began with a simple set of commands for paging user & role information, and then expanded to include commands relating to server moderation, making use of the Discord API's BitField permissions system to condition commands based on user permissions.
-                            </p>
-                            <p>
-                                As the project grew in scope, it introduced me to new concepts such as JSON data handling, and using those techniques to fetch data from various APIs.
-                            </p>
-                        </div>
+                        <p><b>Languages/Tools:</b> Discord.js, Node.js, JavaScript</p>
+                        <p></p>
+                        <p>An ongoing development into designing a Discord Bot through JavaScript.</p>
                     </div>
-                </li>
-            </ul>
+                </div>
+                <div class="project__card">
+                    <figure class="project__thumbnail">
+                        <video oncontextmenu="return false;" class="project__img" width="100%" autoplay muted loop>
+                            <source src="/vid/ping_media_loop.webm" type="video/webm" />
+                        </video>
+                    </figure>
+                    <div class="project__blurb">
+                        <span class="project__title">
+                            <a href="https://github.com/ascwdev/Ping" class="link">
+                                Ping
+                            </a>
+                        </span>
+                        <span class="project__date">
+                            2022
+                        </span>
+                        <p>
+                            <b>Languages/Tools:</b> C#, Unity
+                        </p>
+                        <p>
+                            Simple Unity-based recreation of the first commercially successful video-game.
+                        </p>
+                    </div>
+                </div>
+                <div class="project__card">
+                    <figure class="project__thumbnail">
+                        <video oncontextmenu="return false;" class="project__img" width="100%" autoplay muted loop>
+                            <source src="/vid/flying-bird_media_loop.webm" type="video/webm" />
+                        </video>
+                    </figure>
+                    <div class="project__blurb">
+                        <span class="project__title">
+                            <a href="https://github.com/ascwdev/Flying-Bird" class="link">
+                                Flying Bird
+                            </a>
+                        </span>
+                        <span class="project__date">
+                            2023
+                        </span>
+                        <p>
+                            <b>Languages/Tools:</b> C#, Unity
+                        </p>
+                        <p>
+                            A simple recreation of Flappy Bird using Unity Engine.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
    <script src="projects.js"></script>
     </body>
