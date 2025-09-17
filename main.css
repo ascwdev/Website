@@ -253,7 +253,7 @@ a {
 .project__img {
     display: block;
     z-index: -1;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 .resume__header {
