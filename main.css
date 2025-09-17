@@ -17,12 +17,12 @@
 
     --line-height: 1.5em;
 
-    --page-max-width: 60rem;
+    --page-max-width: 40rem;
     --nav-width: 8.75rem;
 
     --gutter: 12px;
     --radius: 3px;
-    --radius-card: 10px;
+    --radius-card: 8px;
 
     --block-bottom: 1.4rem;
     
@@ -222,14 +222,17 @@ a {
 }
 
 .project__card {
-    display: grid;
     border: 0;
     border-radius: var(--radius-card);
     box-shadow: 0px 2px 6px 0 hsla(0, 0%, 0%, 0.2);
-    padding: 2rem;
+    padding: 4px;
     font-family: var(--font-p);
     font-size: var(--font-size);
     gap: 1rem;
+}
+
+.project__blurb {
+    padding: 12px;
 }
 
 .project__title {
@@ -243,6 +246,7 @@ a {
 
 .project__thumbnail {
     object-fit: cover;
+
     margin: 0;
 }
 
@@ -250,8 +254,6 @@ a {
     display: block;
     z-index: -1;
     border-radius: 5px;
-    box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
-
 }
 
 .resume__header {
