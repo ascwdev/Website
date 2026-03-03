@@ -28,6 +28,8 @@
     
     --background-color: white;
     --border-color-light: #e8e8e8;
+
+    -webkit-font-smoothing: antialiased;
 }
 
 ::-moz-selection { /* Code for Firefox */
@@ -99,8 +101,6 @@ body, input, button, select, textarea {
     cursor: pointer;
     opacity: 60%;
 }
-
-
 
 .nav__item:hover {
     color: rgb(0, 0, 0);
